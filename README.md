@@ -1,8 +1,8 @@
 X Build an app.
 
-# App we need to run at least one scaffold and one controller generator.
+X App we need to run at least one scaffold and one controller generator.
 
-# We need at least 3 view pages that are not created with the scaffold.
+X We need at least 3 view pages that are not created with the scaffold.
 
 # We need to set a landing page in our routes.
 
