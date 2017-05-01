@@ -1,10 +1,43 @@
-body {
-    background-image: url(/assets/coffee.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
+    body {
+        background: url(/assets/coffee.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
 
-h1 {
-    text-align: center;
-}
+    p {
+        font-size: 1.5em;
+    }
+
+    .nav {
+        list-style-type: none;
+        font-weight: 600;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 1.5em;
+    }
+
+    .navigate {
+        margin: 5px 10px 5px 10px;
+        padding: 10px;
+    }
+
+    .navigate:hover {
+        background-color: #e0e0e0;
+    }
+
+    .contact {
+        list-style-type: none;
+    }
+
+    .content {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
